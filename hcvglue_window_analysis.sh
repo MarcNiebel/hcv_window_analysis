@@ -18,6 +18,3 @@ do
 	gluetools.sh --inline-cmd project hcv module thacBamUtilities invoke-function almtFilesForPatient $patient_id $2 $3 $4 $5 ps $6 mw
 done
 
-# Concatenate all unique variant files together
-#cat *ps_no_timepoint_duplicates.fna > variants_rough.fna
-
